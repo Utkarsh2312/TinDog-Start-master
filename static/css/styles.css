@@ -1,0 +1,324 @@
+#title {
+    background-color: #ff4c68;
+}
+
+body {
+    font-family: 'Montserrat';
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h2 {
+    font-family:'Montserrat';
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-top: 150px;
+}
+h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+p {
+    color: #8f8f8f;
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Navigation Bar */
+
+.container-fluid {
+
+    padding: 7% 15%;
+}
+
+.navbar-brand {
+    margin: 0px 20px;
+    
+}
+
+.nav-item-download {
+
+    margin: 0px 20px;
+}
+
+.nav-item-contact {
+    margin: 0px 20px;
+}
+
+.nav-item-pricing {
+    margin: 0px 20px;
+}
+
+.nav-link {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 1.7rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title images */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    margin: 7% 10%;
+}
+
+.title-image-1 {
+    transform: rotate(-25deg);
+    margin-top: 10%;
+    margin-bottom: 7%; 
+    width: 80%;
+}
+
+/* Feature images */
+
+#features {
+    background-color: #FFF2F2;
+    padding: 7% 15%;
+}
+
+.circle-check {
+    text-align: center;
+    padding: 5%;
+    color: #ef8172;
+}
+
+.bullseye {
+    text-align: center;
+    padding: 5%;
+    color: #ef8172;
+
+}
+
+.heart-check {
+    text-align: center;
+    padding: 5%;
+    color: #ef8172;
+    
+}
+
+.feature-h3 {
+    color: black;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+
+#testimonials {
+   
+    background-color: #F47C7C;
+    padding: 7% 15%;
+    text-align: center;
+    color: white;
+}
+
+.testimonial-h2 {
+    margin-top: 0px;
+}
+
+.testimonial-h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #F9F3EE;
+}
+
+.testimonial-image {
+    width: 15%; 
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-inner {
+    height: 28rem;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#carouselExampleIndicators {
+    background-color: #1A3C40;
+    padding: 5% 5%;
+}
+
+/* press */
+
+#press {
+    background-color: #F47C7C;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 50px 40px;
+}
+
+/* Pricing */
+
+#pricing {
+    background-color: #FFF2F2;
+    padding: 80px;
+    text-align: center;
+}
+
+.pricing-h2 {
+    margin-top: 0px;
+}
+
+.pricing-h3 {
+    color: azure;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+/* media quries  */
+
+@media (max-width: 1028px) {
+    .title-image{
+        transform: rotate(0deg);
+        margin: 7% 10%;
+    }
+    .title-image-1 {
+        transform: rotate(0deg);
+        margin-top: 15%;
+        width: 80%;
+    }   
+    .title-h2 {
+        font-family:'Montserrat';
+        font-size: 2.5rem;
+        line-height: 1.5;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 576px){
+    .carousel-inner {
+        height: 48rem;
+    }
+}
+
+@media (min-width: 786px)
+{
+    .carousel-inner {
+        height: 35rem;
+    }
+}
+
+@media (min-width: 992px) 
+{
+    .carousel-inner {
+        height: 32rem;
+    }
+}
+
+/* call of action */
+
+#cta {
+    background-color: #FF8C8C;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-h3 {
+    font-family: 'Ubuntu';
+    font-size: 2.0rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.cta-button {
+     margin: 5% 3% 5% 0;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cta-button:hover {
+    box-shadow: none;
+    transition: all;
+}
+
+/* footer */
+
+#footer {
+    font-family: "Ubuntu";
+    background-color: #2C3639;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.wrapper a {
+    color: #fff;
+}
+
+.hover-fx {
+    font-size: 2rem;
+    font-display: inline-block;
+    cursor: pointer;
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 100%;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 300ms;
+
+}
+
+.hover-fx:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    content: '';
+    box-sizing: content-box;
+    box-shadow: 0 0 0 3px #fff;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 300ms;
+}
+
+.hover-fx:hover {
+    background-color: #fff;
+    color: #151515;
+}
+
+.hover-fx:hover:after {
+    opacity: 1;
+    transform: scale(1.15);
+}
